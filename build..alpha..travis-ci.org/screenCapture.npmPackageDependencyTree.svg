@@ -47,7 +47,7 @@
 <tspan x="10" y="714">  ├─┬ @ava/pretty-format@1.1.0 </tspan>
 <tspan x="10" y="730">  │ ├── ansi-styles@2.2.1 </tspan>
 <tspan x="10" y="746">  │ └── esutils@2.0.2 </tspan>
-<tspan x="10" y="762">  ├── arr-flatten@1.0.1 </tspan>
+<tspan x="10" y="762">  ├── arr-flatten@1.0.3 </tspan>
 <tspan x="10" y="778">  ├── array-union@1.0.2 </tspan>
 <tspan x="10" y="794">  ├── array-uniq@1.0.3 </tspan>
 <tspan x="10" y="810">  ├── arrify@1.0.1 </tspan>
@@ -269,7 +269,7 @@
 <tspan x="10" y="4266">  │ ├── map-obj@1.0.1 </tspan>
 <tspan x="10" y="4282">  │ ├── minimist@1.2.0 </tspan>
 <tspan x="10" y="4298">  │ ├─┬ normalize-package-data@2.3.6 </tspan>
-<tspan x="10" y="4314">  │ │ ├── hosted-git-info@2.4.1 </tspan>
+<tspan x="10" y="4314">  │ │ ├── hosted-git-info@2.4.2 </tspan>
 <tspan x="10" y="4330">  │ │ ├─┬ is-builtin-module@1.0.0 </tspan>
 <tspan x="10" y="4346">  │ │ │ └── builtin-modules@1.1.1 </tspan>
 <tspan x="10" y="4362">  │ │ ├── semver@5.3.0 </tspan>
@@ -362,7 +362,7 @@
 <tspan x="10" y="5754">    │   └── crypto-random-string@1.0.0 </tspan>
 <tspan x="10" y="5770">    ├── is-npm@1.0.0 </tspan>
 <tspan x="10" y="5786">    ├─┬ latest-version@3.1.0 </tspan>
-<tspan x="10" y="5802">    │ └─┬ package-json@4.0.0 </tspan>
+<tspan x="10" y="5802">    │ └─┬ package-json@4.0.1 </tspan>
 <tspan x="10" y="5818">    │   ├─┬ got@6.7.1 </tspan>
 <tspan x="10" y="5834">    │   │ ├─┬ create-error-class@3.0.2 </tspan>
 <tspan x="10" y="5850">    │   │ │ └── capture-stack-trace@1.0.0 </tspan>
