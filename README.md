@@ -1,4 +1,7 @@
-# test coverage for  [ava (v0.19.1)](https://ava.li)  [![npm package](https://img.shields.io/npm/v/npmtest-ava.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ava) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ava.svg)](https://travis-ci.org/npmtest/node-npmtest-ava)
+# npmtest-ava
+
+#### basic test coverage for  [ava (v0.19.1)](https://ava.li)  [![npm package](https://img.shields.io/npm/v/npmtest-ava.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ava) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ava.svg)](https://travis-ci.org/npmtest/node-npmtest-ava)
+
 #### Futuristic test runner 🚀
 
 [![NPM](https://nodei.co/npm/ava.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ava)
