@@ -216,7 +216,7 @@
 <tspan x="10" y="3418">  │ └─┬ pinkie-promise@2.0.1 </tspan>
 <tspan x="10" y="3434">  │   └── pinkie@2.0.4 </tspan>
 <tspan x="10" y="3450">  ├── has-flag@2.0.0 </tspan>
-<tspan x="10" y="3466">  ├─┬ hullabaloo-config-manager@1.0.0 </tspan>
+<tspan x="10" y="3466">  ├─┬ hullabaloo-config-manager@1.0.1 </tspan>
 <tspan x="10" y="3482">  │ ├── es6-error@4.0.2 </tspan>
 <tspan x="10" y="3498">  │ ├── graceful-fs@4.1.11 </tspan>
 <tspan x="10" y="3514">  │ ├── lodash.clonedeep@4.5.0 </tspan>

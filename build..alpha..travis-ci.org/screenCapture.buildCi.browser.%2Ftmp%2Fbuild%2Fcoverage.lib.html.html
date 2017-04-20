@@ -1,5 +1,5 @@
 <html lang="en"><head>
-    <title>Code coverage report for node-npmtest-ava/node_modules/ava/lib/test-worker.js</title>
+    <title>Code coverage report for node-npmtest-ava/node_modules/ava/cli.js</title>
     <meta charset="utf-8">
     <style>
         body, html {
@@ -188,27 +188,27 @@
     </style>
 </head>
 <body>
-<div class="header low">
+<div class="header medium">
     <h1 style="font-weight: bold;">
         <a href="https://github.com/npmtest/node-npmtest-ava">npmtest-ava (v0.0.2)</a>
     </h1>
-    <h1>Code coverage report for <span class="entity">node-npmtest-ava/node_modules/ava/lib/test-worker.js</span></h1>
+    <h1>Code coverage report for <span class="entity">node-npmtest-ava/node_modules/ava/cli.js</span></h1>
     <h2>
         
-        Statements: <span class="metric">20.31% <small>(13 / 64)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Statements: <span class="metric">61.54% <small>(8 / 13)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Branches: <span class="metric">5% <small>(1 / 20)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Branches: <span class="metric">66.67% <small>(4 / 6)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Functions: <span class="metric">0% <small>(0 / 1)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Functions: <span class="metric">100% <small>(0 / 0)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Lines: <span class="metric">20.31% <small>(13 / 64)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Lines: <span class="metric">61.54% <small>(8 / 13)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
-    <div class="path"><a href="../../../../index.html">All files</a> » <a href="index.html">node-npmtest-ava/node_modules/ava/lib/</a> » test-worker.js</div>
+    <div class="path"><a href="../../../index.html">All files</a> » <a href="index.html">node-npmtest-ava/node_modules/ava/</a> » cli.js</div>
 </div>
 <div class="body">
 <pre><table class="coverage">
@@ -240,376 +240,67 @@
 26
 27
 28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-76
-77
-78
-79
-80
-81
-82
-83
-84
-85
-86
-87
-88
-89
-90
-91
-92
-93
-94
-95
-96
-97
-98
-99
-100
-101
-102
-103
-104
-105
-106
-107
-108
-109
-110
-111
-112
-113
-114
-115
-116
-117
-118
-119
-120
-121
-122
-123
-124
-125
-126
-127
-128
-129
-130
-131
-132</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
+29</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5</span>
-<span class="cline-any cline-yes">5</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5</span>
-<span class="cline-any cline-yes">5</span>
-<span class="cline-any cline-yes">5</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5</span>
-<span class="cline-any cline-yes">5</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5</span>
-<span class="cline-any cline-yes">5</span>
-<span class="cline-any cline-yes">5</span>
-<span class="cline-any cline-yes">5</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">'use strict';
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">//#!/usr/bin/env node
+'use strict';
+const path = require('path');
+const debug = require('debug')('ava');
 &nbsp;
-// Check if the test is being run without AVA cli
-{
-	/* eslint-disable import/order */
-	const path = require('path');
-	const chalk = require('chalk');
+// Prefer the local installation of AVA.
+const resolveCwd = require('resolve-cwd');
+const localCLI = resolveCwd('ava/cli');
 &nbsp;
-	const isForked = typeof process.send === 'function';
-	<span class="missing-if-branch" title="else path not taken">E</span>if (!isForked) {
-		const fp = path.relative('.', process.argv[1]);
+// Use `path.relative()` to detect local AVA installation,
+// because __filename's case is inconsistent on Windows
+// see https://github.com/nodejs/node/issues/6624
+<span class="missing-if-branch" title="if path not taken">I</span>if (localCLI &amp;&amp; path.relative(localCLI, __filename) !== '') {
+<span class="cstat-no" title="statement not covered">	debug('Using local install of AVA');</span>
+<span class="cstat-no" title="statement not covered">	require(localCLI); </span>// eslint-disable-line import/no-dynamic-require
+} else {
+	<span class="missing-if-branch" title="if path not taken">I</span>if (debug.enabled) {
+<span class="cstat-no" title="statement not covered">		require('time-require'); </span>// eslint-disable-line import/no-unassigned-import
+	}
 &nbsp;
-		console.log();
-		console.error('Test files must be run with the AVA CLI:\n\n    ' + chalk.grey.dim('$') + ' ' + chalk.cyan('ava ' + fp) + '\n');
-&nbsp;
-		process.exit(1); // eslint-disable-line unicorn/no-process-exit
+	try {
+		require('./lib/cli').run();
+	} catch (err) {
+<span class="cstat-no" title="statement not covered">		console.error(`\n  ${err.message}`);</span>
+<span class="cstat-no" title="statement not covered">		process.exit(1);</span>
 	}
 }
-&nbsp;
-/* eslint-enable import/order */
-const Bluebird = require('bluebird');
-const currentlyUnhandled = require('currently-unhandled')();
-const isObj = require('is-obj');
-const adapter = require('./process-adapter');
-<span class="cstat-no" title="statement not covered">const globals = require('./globals');</span>
-<span class="cstat-no" title="statement not covered">const serializeError = require('./serialize-error');</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered">const opts = adapter.opts;</span>
-<span class="cstat-no" title="statement not covered">const testPath = opts.file;</span>
-<span class="cstat-no" title="statement not covered">globals.options = opts;</span>
-&nbsp;
-// Bluebird specific
-<span class="cstat-no" title="statement not covered">Bluebird.longStackTraces();</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered">(opts.require || []).forEach(require);</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered">adapter.installSourceMapSupport();</span>
-<span class="cstat-no" title="statement not covered">adapter.installPrecompilerHook();</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered">const dependencies = [];</span>
-<span class="cstat-no" title="statement not covered">adapter.installDependencyTracking(dependencies, testPath);</span>
-&nbsp;
-// Set when main.js is required (since test files should have `require('ava')`).
-<span class="cstat-no" title="statement not covered">let runner = null;</span>
-<span class="cstat-no" title="statement not covered">exports.setRunner = newRunner =&gt; {</span>
-<span class="cstat-no" title="statement not covered">	runner = newRunner;</span>
-};
-&nbsp;
-<span class="cstat-no" title="statement not covered">require(testPath); </span>// eslint-disable-line import/no-dynamic-require
-&nbsp;
-// If AVA was not required, show an error
-<span class="cstat-no" title="statement not covered">if (!runner) {</span>
-<span class="cstat-no" title="statement not covered">	adapter.send('no-tests', {avaRequired: false});</span>
-}
-&nbsp;
-<span class="fstat-no" title="function not covered">function attributeLeakedError(err) {</span>
-<span class="cstat-no" title="statement not covered">	if (!runner) {</span>
-<span class="cstat-no" title="statement not covered">		return false;</span>
-	}
-&nbsp;
-<span class="cstat-no" title="statement not covered">	return runner.attributeLeakedError(err);</span>
-}
-&nbsp;
-<span class="cstat-no" title="statement not covered">const attributedRejections = new Set();</span>
-<span class="cstat-no" title="statement not covered">process.on('unhandledRejection', (reason, promise) =&gt; {</span>
-<span class="cstat-no" title="statement not covered">	if (attributeLeakedError(reason)) {</span>
-<span class="cstat-no" title="statement not covered">		attributedRejections.add(promise);</span>
-	}
-});
-&nbsp;
-<span class="cstat-no" title="statement not covered">process.on('uncaughtException', exception =&gt; {</span>
-<span class="cstat-no" title="statement not covered">	if (attributeLeakedError(exception)) {</span>
-<span class="cstat-no" title="statement not covered">		return;</span>
-	}
-&nbsp;
-<span class="cstat-no" title="statement not covered">	let serialized;</span>
-<span class="cstat-no" title="statement not covered">	try {</span>
-<span class="cstat-no" title="statement not covered">		serialized = serializeError(exception);</span>
-	} catch (ignore) { // eslint-disable-line unicorn/catch-error-name
-		// Avoid using serializeError
-<span class="cstat-no" title="statement not covered">		const err = new Error('Failed to serialize uncaught exception');</span>
-<span class="cstat-no" title="statement not covered">		serialized = {</span>
-			avaAssertionError: false,
-			name: err.name,
-			message: err.message,
-			stack: err.stack
-		};
-	}
-&nbsp;
-	// Ensure the IPC channel is refereced. The uncaught exception will kick off
-	// the teardown sequence, for which the messages must be received.
-<span class="cstat-no" title="statement not covered">	adapter.ipcChannel.ref();</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered">	adapter.send('uncaughtException', {exception: serialized});</span>
-});
-&nbsp;
-<span class="cstat-no" title="statement not covered">let tearingDown = false;</span>
-<span class="cstat-no" title="statement not covered">process.on('ava-teardown', () =&gt; {</span>
-	// AVA-teardown can be sent more than once
-<span class="cstat-no" title="statement not covered">	if (tearingDown) {</span>
-<span class="cstat-no" title="statement not covered">		return;</span>
-	}
-<span class="cstat-no" title="statement not covered">	tearingDown = true;</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered">	let rejections = currentlyUnhandled()</span>
-		.filter(rejection =&gt; <span class="cstat-no" title="statement not covered">!attributedRejections.has(rejection.promise))</span>;
-&nbsp;
-<span class="cstat-no" title="statement not covered">	if (rejections.length &gt; 0) {</span>
-<span class="cstat-no" title="statement not covered">		rejections = rejections.map(rejection =&gt; {</span>
-<span class="cstat-no" title="statement not covered">			let reason = rejection.reason;</span>
-<span class="cstat-no" title="statement not covered">			if (!isObj(reason) || typeof reason.message !== 'string') {</span>
-<span class="cstat-no" title="statement not covered">				reason = {</span>
-					message: String(reason)
-				};
-			}
-<span class="cstat-no" title="statement not covered">			return serializeError(reason);</span>
-		});
-&nbsp;
-<span class="cstat-no" title="statement not covered">		adapter.send('unhandledRejections', {rejections});</span>
-	}
-&nbsp;
-	// Include dependencies in the final teardown message. This ensures the full
-	// set of dependencies is included no matter how the process exits, unless
-	// it flat out crashes.
-<span class="cstat-no" title="statement not covered">	adapter.send('teardown', {dependencies});</span>
-});
-&nbsp;
-<span class="cstat-no" title="statement not covered">process.on('ava-exit', () =&gt; {</span>
-<span class="cstat-no" title="statement not covered">	process.exit(0); </span>// eslint-disable-line xo/no-process-exit
-});
 &nbsp;
 &nbsp;</pre></td></tr>
 </tbody></table></pre>
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Mon Apr 17 2017 11:09:39 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Thu Apr 20 2017 01:21:16 GMT+0000 (UTC)</div>
 </div>
 
 
